@@ -21,7 +21,7 @@ public class ElementScreenShot {
 		// To check the ScreenShot code see the last lines of this program
 		
 		System.setProperty("webdriver.edge.driver", 
-				"C:\\Users\\hp\\Downloads\\edgedriver_win64123\\msedgedriver.exe");
+				"C:\\Users\\Amir Hamza Haq\\Downloads\\Programs\\edgedriver_win64123\\msedgedriver.exe");
 		EdgeDriver driver = new EdgeDriver();
 		driver.get("https://rahulshettyacademy.com/angularpractice/");
 		driver.manage().window().maximize();
@@ -44,7 +44,7 @@ public class ElementScreenShot {
 		// Taking ScreenShot from that specific element.
 		File Scrnshot = name.getScreenshotAs(OutputType.FILE);
 		
-		FileUtils.copyFile(Scrnshot, new File("C:\\Users\\hp\\eclipse-workspace\\Selenium4Project\\src\\test\\java\\Selenium4ElementScreenShot\\element.png"));
+		FileUtils.copyFile(Scrnshot, new File("D:\\eclipse-workspace\\Selenium4Project\\element.png"));
 		System.out.println("Pass");
 		
 

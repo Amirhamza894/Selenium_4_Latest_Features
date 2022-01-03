@@ -14,7 +14,7 @@ public class Selenium4test {
 		 */
 		
 		System.setProperty("webdriver.edge.driver", 
-				"C:\\Users\\hp\\Downloads\\edgedriver_win64123\\msedgedriver.exe");
+				"C:\\Users\\Amir Hamza Haq\\Downloads\\Programs\\edgedriver_win64123\\msedgedriver.exe");
 		EdgeDriver driver = new EdgeDriver();
 		driver.get("https://rahulshettyacademy.com/angularpractice/");
 		driver.manage().window().maximize();
